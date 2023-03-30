@@ -7,9 +7,9 @@ function displaymenu(){
         window.body.style.backgroundColor = "var(--secondcolor)";
         let pos = -150;
         let inter = setInterval(() => {
-            if(pos < 40){
+            if(pos < 35){
                 window.menutable.style.top = pos + "px";
-                pos++;
+                pos+= 3;
             }
             else{
                 clearInterval(inter);
