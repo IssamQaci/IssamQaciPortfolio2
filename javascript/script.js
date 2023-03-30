@@ -5,7 +5,7 @@ function displaymenu(){
     if(!isclicked){
         document.getElementById("menutable").style.display = "flex";
         window.body.style.backgroundColor = "var(--secondcolor)";
-        let pos = 0;
+        let pos = -150;
         let inter = setInterval(() => {
             if(pos < 40){
                 window.menutable.style.top = pos + "px";
