@@ -24,7 +24,7 @@ function displaymenu(){
         isclicked = true;
     }
     else{
-        let pos = 40;
+        let pos = 35;
         let inter = setInterval(() => {
             if(pos > -150){
                 window.menutable.style.top = pos + "px";
